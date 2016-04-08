@@ -46,3 +46,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/**********************************
+Main page styling
+**********************************/
+
+body {
+	font-family: sans-serif;
+}
+
+/**********************************
+Header styling
+**********************************/
+
+.bannerBox {
+	background-color: #CCC;
+	padding: 3%;
+	font-size: 2em;
+	font-weight: bold;
+	color: blue;
+}
+
+#widgetBox {
+	color: blue;
+	font-weight: bold;
+	font-size: .75em;
+}
+
+/**********************************
+Body styling
+**********************************/
+
+.ipsumStuff {
+	margin: 2% auto;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	width: 75%;
+}
