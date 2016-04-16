@@ -11,9 +11,7 @@ function timeToRead(str) {
   return time;
 }
 
-var estimate = document.createElement('h3');
+
 console.log(typeof text);
 console.log(typeof "hello error")
-estimate.textContent = timeToRead(article.textContent) + ' minutes to read';
-
-widget.appendChild(estimate);
+widget.textContent = timeToRead(article.textContent) + ' minutes to read';
